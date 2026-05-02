@@ -11,6 +11,7 @@ type to fit the data.
 4. Store the results in an array
 5. Represent the result in graphical representation as given below.
 ### PROGRAM:
+```
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -54,7 +55,7 @@ plt.xlabel('Lag')
 plt.ylabel('Autocorrelation')
 plt.grid(True)
 plt.show()
-
+``
 ### OUTPUT:
 <img width="598" height="411" alt="image" src="https://github.com/user-attachments/assets/52167c30-45aa-44e1-8bfd-b34eeeb64559" />
 
